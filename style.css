@@ -1,0 +1,262 @@
+@media(min-width:1081px){
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* utility class */
+body{
+  background: black;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.container{
+  
+  width: 85vw;
+  margin: auto;
+  
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.relative{
+  position: relative;
+}
+
+
+
+/* ---------NAV BAR---------- */
+nav{
+  width: 100vw;
+  height: 55px;
+  background: black;
+  justify-content: space-between;
+}
+nav h1{
+  margin-left: 10px;
+  font-weight: 400;
+}
+span.a{
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgb(250,50,150);
+  
+}
+.list{
+  color: white;
+}
+ .nav-links{
+  gap: 30px;
+  justify-content: end;
+  
+}
+.nav-links a:hover{
+  background: #ff004f;
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+
+
+.gap{
+  width: 100vw;
+  height: 5vw;
+  background: linear-gradient(to top, black, grey);
+}
+
+
+
+
+.my-name{
+  margin-top: 10vw;
+  margin-left: 7.5vw;
+  line-height: 60px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+span.myname{
+  font-weight: 900;
+  font-size: 3rem;
+  margin-left: 20px;
+  color: rgb(250,50,150);
+}
+span.im{
+  font-size: 2.9rem;
+}
+span.haldia{
+  font-size: 1.8rem;
+  word-spacing: 10px;
+}
+.my-main-pic{
+  width:50vw;
+}
+.header-div{
+  justify-content: space-between;
+}
+
+
+
+
+.my-second-pic{
+  margin-top: 15vw;
+  width: 45vw;
+  border: 5px solid grey;
+  border-radius: 2%;
+}
+.about-me{
+  margin-left: 60px;
+}
+.about-me-text{
+  text-decoration: underline;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.sub-about{
+  margin-top: 30px;
+  justify-content: space-between;
+  font-weight: 500;
+  position: relative;
+}
+.sub-about::after{
+  content:'';
+  width: 20px;
+  height: 3px;
+  background: red;
+  position: absolute;
+  top: 20px;
+}
+.sub-about-content{
+  margin-top: 20px;
+}
+.skills span{
+  color: red;
+}
+
+
+#my-services{
+  margin-top: 50px;
+}
+#my-services h2{
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+.Services-boxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Services-box{
+  width: 25vw;
+  border: 3px solid grey;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 50px;
+}
+.Services-box:hover{
+  background: linear-gradient(to top right, #ff004f, grey);
+  transform: translateY(-10px);
+  transition: 1s;
+}
+
+
+#my-work{
+  margin-top: 50px;
+}
+#my-work h2{
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+.work-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.work-list img{
+  width: 25vw;
+  height: 150px;
+  border: 2px solid pink;
+}
+.work{
+  text-align: center;
+  font-weight:900;
+  color: red;
+  border: 2px dotted red;
+}
+.layer:hover{
+  background: linear-gradient(rgba(0,0,0,0), #ff004f);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+
+
+
+
+.contact-items h2{
+  margin-block: 20px;
+  font-size: 1.8rem;
+}
+.for-gap{
+  line-height: 30px;
+}
+.feedback{
+  width: 48vw;
+  border: 2px solid grey;
+  border-radius: 4px;
+  
+  margin: 50px 0 50px 50px;
+  background: linear-gradient(to top left, grey, black);
+}
+#name, #email{
+  width: 80%;
+  height: 40px;
+  margin:20px 10px 10px 5px;
+  border-radius: 7px;
+}
+#feedback{
+  width: 80%;
+  height: 100px;
+  margin: 10px 0 5px 5px;
+  border-radius: 7px;
+  text-align: center;
+}
+#submit{
+  height: 30px;
+  width:80px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-top: 20px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  background: #ff004f;
+}
+footer{
+  width: 100vw;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.gap1{
+  width: 100vw;
+  height: 10vw;
+  background: linear-gradient(to top, grey, black);
+}
+#fb,#insta,#linkedin{
+  width: 30px;
+  margin: 5px 8px;
+}
+}
