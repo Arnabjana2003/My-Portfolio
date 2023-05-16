@@ -188,46 +188,33 @@ span.haldia{
 }
 
 
-/* ----------my works---------- */
-
-#my-work{
-  margin-top: 70px;
-}
-#my-work h2{
-  margin-bottom: 30px;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.work-list img{
-  width: 70vw;
-  height: 180px;
-  border: 2px solid pink;
-  margin-left: 30px;
-  margin-top: 20px;
+/* ----------project---------- */
+#project img{
+  width: 250px;
+  
   
 }
-.work{
-  text-align: center;
-  font-weight:900;
-  color: white;
-  margin: 0 23px 0 23px;
-  border: 2px dotted red;
-}
-.layer:hover{
-  background: linear-gradient(rgba(0,0,0,0), #ff004f);
-  width: 85%;
-  height: 90%;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  text-align: center;
+.project{
+  flex-direction: column;
   justify-content: center;
-  padding-top: 30px;
+  padding: 60px 0;
+}
+.project h2{
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+.project a{
+  text-align: center;
+  padding: 5px 0;
+  margin: 10px 0 25px;
+  font-size: 1.5rem;
+  display: block;
+  border: 2px solid red;
+  
 }
 
 
+/* ---------------form----------- */
 
 .hi{
   flex-direction: column;
